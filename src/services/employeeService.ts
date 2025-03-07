@@ -1,8 +1,6 @@
 import axios from "axios";
 import { EmployeeType } from "../types";
-import dotenv from "dotenv";
 
-dotenv.config();
 // const API_URL = "http://localhost:5000/api/employees"; // URL da API // Usado para projeto local
 const API_URL = import.meta.env.VITE_API_URL as string; // Lê a variável do .env
 
