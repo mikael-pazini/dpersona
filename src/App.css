@@ -1,0 +1,39 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* .blue1 {
+  color: #3519e6;
+}
+.blue2 {
+  color: #2813bc;
+}
+.blue3 {
+  color: #1b0d92;
+}
+.blue4 {
+  color: #0d0668;
+}
+.blue5 {
+  color: #00003e;
+} */
+
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #3519e6);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
