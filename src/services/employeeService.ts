@@ -3,7 +3,7 @@ import { EmployeeType } from "../types";
 
 // const API_URL = "http://localhost:5000/api/employees"; // URL da API // Usado para projeto local
 const API_URL = import.meta.env.VITE_API_URL as string; // Lê a variável do .env
-
+console.log("API_URL", API_URL);
 // 📌 Buscar todos os funcionários
 export const getEmployees = async (): Promise<EmployeeType[]> => {
   const response = await axios.get<EmployeeType[]>(API_URL);
