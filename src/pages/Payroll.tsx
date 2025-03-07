@@ -4,7 +4,9 @@ const Payroll = () => {
   return (
     <>
       <Header />
-      <div>FolhaPagamento</div>
+      <div className="breve">
+        <h1>Esta funcionalidade estará disponível em breve.</h1>
+      </div>
     </>
   );
 };

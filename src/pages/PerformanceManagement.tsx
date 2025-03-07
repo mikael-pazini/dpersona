@@ -4,7 +4,9 @@ const PerformanceManagement = () => {
   return (
     <>
       <Header />
-      <div>GestaoDesenpenho</div>
+      <div className="breve">
+        <h1>Esta funcionalidade estará disponível em breve.</h1>
+      </div>
     </>
   );
 };
